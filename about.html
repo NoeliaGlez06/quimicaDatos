@@ -1,21 +1,61 @@
-<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>About</title><link rel="stylesheet" href="style.css"></head><body>
-<header><div class="header-left"><a href="index.html"><img src="imagenes/LOGO.png" class="logo"></a></div><div class="header-center"><nav><a href="index.html">Inicio</a><input class="search-bar" type="text" placeholder="Buscar"><a href="about.html">About</a></nav></div></header>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>About</title>
+  <link rel="stylesheet" href="style.css">
+    <style>
+    body{background:#f7f4f2;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0}
+    header{background:#7b194b;color:#fff;display:flex;justify-content:space-between;align-items:center;padding:.6rem 1rem}
+    .header-left img{height:50px}
+    .header-center nav{display:flex;align-items:center;gap:1rem}
+    .header-center nav a{color:#fff;text-decoration:none;font-weight:600}
+    .search-bar{padding:.3rem .6rem;border-radius:6px;border:none}
+    .wrap{max-width:1000px;margin:1.5rem auto;padding:0 1rem}
+    .card{background:#fff;border:1px solid #e3e3e7;border-radius:16px;box-shadow:0 10px 24px rgba(0,0,0,.06);padding:1.25rem}
+    .title{margin:.2rem 0 1rem;font-size:1.8rem;color:#7b194b}
+    .crumbs{font-size:.95rem;margin-bottom:.75rem}.crumbs a{color:#7b194b;text-decoration:none}
+    .btn-back{display:inline-block;margin:.5rem 0 1rem;padding:.55rem .9rem;border:1px solid #7b194b;border-radius:10px;color:#7b194b;text-decoration:none}
+    .btn-back:hover{background:#7b194b;color:#fff}
+    h2{margin:1.25rem 0 .5rem}
+    .table-wrap{overflow:auto;border:1px solid #eee;border-radius:12px;margin:.5rem 0 1rem}
+    table.cuadro{width:100%;border-collapse:collapse;background:#fff}
+    table.cuadro td{padding:.55rem .6rem;border-bottom:1px solid #f0f0f0;vertical-align:top}
+    table.cuadro tr:nth-child(odd){background:#fcfcfd}
+    .note{font-size:.95rem;color:#444;margin-top:.75rem}
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header-left"><a href="index.html"><img src="imagenes/LOGO.png" class="logo"></a></div>
+    <div class="header-center">
+      <nav><a href="index.html">Inicio</a><input class="search-bar" type="text" placeholder="Buscar"><a
+          href="about.html">About</a></nav>
+    </div>
+  </header>
 
   <div class="container">
     <h1>Autores</h1>
-    <center><p>Este proyecto fue elaborado por estudiantes de Ingeniería en Química Farmacéutica como parte del estudio de la Ley General de la Salud y la clasificación de medicamentos.</p>
-    <strong><p>González Presa Noelia<br> 
-Menxueiro Vasquez Luis Mario<br>  
-Ugalde Mora Anaflor<br>  
-Valencia Mendoza Maria Jimena<br>  
-Vargas Lopez Dulce Maria<br>  
-Zuñiga Martinez Emily  
-<br>
-    <p>Universidad Tecnológica de San Juan del Río</p>  
-Ingeniería en Química Farmacéutica<br>
-Grupo: IQF01SV-25</p></strong>
+    <center>
+      <p>Este proyecto fue elaborado por estudiantes de Ingeniería en Química Farmacéutica como parte del estudio de la
+        Ley General de la Salud y la clasificación de medicamentos.</p>
+      <strong>
+        <p>González Presa Noelia<br>
+          Menxueiro Vasquez Luis Mario<br>
+          Ugalde Mora Anaflor<br>
+          Valencia Mendoza Maria Jimena<br>
+          Vargas Lopez Dulce Maria<br>
+          Zuñiga Martinez Emily
+          <br>
+        <p>Universidad Tecnológica de San Juan del Río</p>
+        Ingeniería en Química Farmacéutica<br>
+        Grupo: IQF01SV-25</p>
+      </strong>
   </div>
 
 </body>
 <script src="search.js"></script>
+
 </html>
